@@ -55,5 +55,7 @@ public class AddressBuilder {
 
         String userAddress = address.toString();
         System.out.println(userAddress);
+
+        myScanner.close();
     }
 }
